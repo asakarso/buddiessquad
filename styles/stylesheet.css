@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0EEE9;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Nav Bar */
+
+header {
+    background-color: #5F4B8b;
+    color: #F0EEE9;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    z-index: 2;
+    opacity: 0.9;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-left {
+    float: left;
+    padding: 15px;
+    padding-left: 9px;
+}
+
+.header-left a {
+    color: #F0EEE9;
+    font-size: 
+    30px;
+    font-family: 'Lucida Sans';
+    text-shadow: 2px 2px black;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right li {
+    float: left;
+    list-style: none;
+}
+
+.header-right a {
+    color: #F0EEE9;
+    padding: 10px;
+    display: block;
+    padding: 10px;
+    padding-right: 9px;
+    line-height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav-icon {
+    float: right;
+    font-size: 40px;
+    margin: auto 0;
+    padding: 2% 0;
+    display: none;
+}
+
+.header-right a:hover {
+    background-color: #4d3c72;
+    transition: all 0.5s;
+}
+
+/* main */
+
+#gfriend {
+    background-color: #F0EEE9;
+    margin: 0 auto;
+}
+
+#gfriend .container {
+    padding-bottom: 10% ;
+    padding-top: 5%;
+    position: relative;
+    top: 65px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+
+.bio-left {
+    float: left;
+    width: 100%;
+}    
+
+.bio-left h1, p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.bio-left h1 {
+    width: 100%;
+    font-size: 50px;
+}
+
+.bio-left p {
+    font-weight: normal;
+    line-height: 25px;
+}
+
+#gfriend img {
+    width: 50%;
+    border-radius: 40px;
+    box-shadow: 9px 7px rgba(97, 97, 97, 0.103);
+}
+
+.bio-right {
+    float: right;
+    margin-left: 10%;
+}
+
+/* profil */
+
+#profiles {
+    background-color: #F0EEE9;
+}
+
+#profiles .container {
+    border-radius: 40px;
+    background-color: #00b2CA;
+    position: relative;
+    height: 950px;
+    color: #F0EEE9;
+    padding: 5% 0;
+    text-align: center;
+    margin: 0 5%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.459);
+}
+
+#profiles h1 {
+    font-size: 45px;
+    padding: 0 5%;
+    text-shadow: 2px 2px black;
+}
+
+.group {
+    padding: 30px;
+}
+
+.group img {
+    width: 250px;
+    border-radius: 1000px;
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+.member {
+    width: 33.33%;
+    margin: 25px auto;
+    position: relative;
+    float: left;
+}
+
+.group p {
+    font-weight: 550;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Tahoma;
+    letter-spacing: 4px;
+}
+
+/* instagram */
+.ig {
+    display: block;
+    width: 57.5%;
+    height: 78.9%;
+    position: absolute;
+    top: 0%;
+    left: 21.4%;
+    border-radius: 1000px;
+    color: rgba(0, 0, 0, 0);
+}
+
+.ig:hover {
+    background-color: rgba(0, 0, 0, 0.664);
+    display: block;
+    width: 57.5%;
+    height: 78.9%;
+    position: absolute;
+    top: 0%;
+    left: 21.4%;
+    z-index: 1;
+    border-radius: 1000px;
+    color: white;
+    padding-top: 80px;
+    text-shadow: 0px 0px black;
+    transition: all 0.5s;
+}
+
+/* contact */
+#contact {
+    background-color: #F0EEE9;
+    height: 670px;
+    padding: 75px 0;
+    margin: 0 auto 3% auto;
+    text-align: center;
+}
+
+#contact h1 {
+    text-align: left;
+    font-size: 40px;
+    color: rgb(63, 63, 63);
+    margin-left: 5%;
+}
+
+#contact .container {
+    height: 490px;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    color: #F0EEE9;
+    font-family: 'Times New Roman';
+    background-color: #00b2CA;
+    border-radius: 10px;
+    width: 64%;
+    height: 100%;
+    float: left;
+    padding-top: 3%;
+}
+
+.input {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 10px;
+}
+
+.form h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: 2px 2px black;
+}
+
+.form input, textarea {
+    margin-bottom: 20px;
+    margin-top: 7px;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid rgb(175, 174, 174);
+    padding: 10px;
+}
+
+.form textarea {
+    margin-bottom: 10%;
+}
+
+.form input {
+    height: 35px;
+}
+
+.form .button {
+    background-color: #F0EEE9;
+    font-size: medium;
+    border-radius: 5px;
+    border: 2px solid rgb(175, 174, 174);
+    cursor: pointer;
+    color: rgb(78, 78, 78);
+    box-shadow: 1px 7px rgba(0, 0, 0, 0.363);
+    padding: 10px;
+}
+
+.form .button:hover {
+    background-color: #00b2CA;
+    color: #F0EEE9;
+    transition: all 0.5s;
+}
+
+.form .button:active {
+    box-shadow: none;
+    position: relative;
+    transition: none;
+    top: 7px;
+    background-color: #F0EEE9;
+    color: black;
+}
+
+.contacts {
+    color: #F0EEE9;
+    font-family: 'Times New Roman';
+    background-color: #00b2CA;
+    border-radius: 10px;
+    width: 450px;
+    float: right;
+    margin-left: 3%;
+    padding: 5% 0;
+}
+
+.contacts-2 {
+    margin: auto 0;
+}
+
+.contact-us-items {
+    margin: 0 auto;
+    width: 62.05%;
+    margin-top: 5%;
+}
+
+.contact-us h2 {
+    padding-bottom: 40px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.box-form:hover {
+    background-color: #5F4B8b;
+    transition: all 0.5s;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+#contact label, p, .button {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* footer */
+footer {
+    position: relative;
+    bottom: 0px;
+    background-color: #5F4B8b;
+    height: 50px;
+    width: 100%;
+}
+
+footer div {
+    margin-top: auto 0;
+}
+
+footer p {
+    color: #F0EEE9;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 17px;
+}
