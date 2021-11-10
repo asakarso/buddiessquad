@@ -69,7 +69,8 @@ header {
     float: right;
     font-size: 40px;
     margin: auto 0;
-    padding: 2% 0;
+    padding: 2.55% 0;
+    cursor: pointer;
     display: none;
 }
 
@@ -266,7 +267,7 @@ header {
 }
 
 .form textarea {
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 .form input {
@@ -274,6 +275,7 @@ header {
 }
 
 .form .button {
+    display: inline-block;
     background-color: #F0EEE9;
     font-size: medium;
     border-radius: 5px;
@@ -282,6 +284,7 @@ header {
     color: rgb(78, 78, 78);
     box-shadow: 1px 7px rgba(0, 0, 0, 0.363);
     padding: 10px;
+    width: 90px;
 }
 
 .form .button:hover {
@@ -316,7 +319,7 @@ header {
 
 .contact-us-items {
     margin: 0 auto;
-    width: 62.05%;
+    width: 64.05%;
     margin-top: 5%;
 }
 
@@ -351,7 +354,7 @@ footer {
 }
 
 footer div {
-    margin-top: auto 0;
+    margin: auto 0;
 }
 
 footer p {

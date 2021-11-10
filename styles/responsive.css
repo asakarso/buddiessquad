@@ -172,24 +172,24 @@
         width: 50.8%;
     }
 
-    #contact {
-        height: 950px;
-    }
-
     .contact-us-items {
-        width:80%;
+        width: 80%;
     }
     
 }
 
 /* Untuk Smartphone */
-@media all and (max-width: 640px) {
+@media all and (max-width: 700px) {
     #profiles {
         margin-top: 6%;
     }
     
     #contact {
         height: 1020px;
+    }
+
+    .contacts {
+        height: 300px;
     }
 
     .contacts-2 {
@@ -209,3 +209,36 @@
         padding: 7%;
     }
 }     
+
+@media all and (max-width: 640px) {
+
+    .ig, .ig:hover {
+        left: 17.8%;
+        width: 64.4%;
+    }
+
+    .input .button {
+        width: 90px;
+    }
+
+    #contact {
+        height: 930px;
+    }
+
+    #contact h1 {
+        font-size: 37px;
+    }
+
+    .form {
+        height: 440px;
+    }
+
+    .contact-us-items {
+        font-size: 15px;
+    }
+
+    footer p {
+        margin-top: 1.25%;
+        font-size: 12px;
+    }
+}    
