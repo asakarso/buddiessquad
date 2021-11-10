@@ -1,0 +1,244 @@
+@media all and (max-width: 1400px) {
+    body {
+        display: block;
+    }
+
+    .ig, .ig:hover {
+        left: 18%;
+        width: 64%;
+    }
+
+    #contact {
+        height: 1030px;
+    }
+
+    #contact .container {
+        display: block;
+    }
+
+    .box-form{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .form {
+        font-size: 15px;
+    }
+
+    .contacts-2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .h2 {
+        width: 50%;
+        float: left;
+    }
+
+    .contacts h2 {
+        font-size: 35px;
+    }
+
+    .contact-us-items {
+        width: 50%;
+        float: left;
+        padding-top: 0;
+        margin: auto 0;
+        font-size: 18px;
+    }
+
+    .foot {
+        position: absolute;
+        top: 0;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .ig, .ig:hover {
+        left: 14.7%;
+        width: 70.8%;
+    }
+
+}
+ 
+ @media all and (max-width: 1100px) {
+    .intro {
+        width: 100%;
+        display: inline-block;
+    }
+
+    #gfriend .bio-left {
+        width: 100%;
+        font-size: 17.5px;
+    }
+
+    #gfriend img {
+        width: 100%;
+        margin: 5% auto;
+    }
+
+    .ig, .ig:hover {
+        left: 8.5%;
+        width: 83.2%;
+    }
+
+    .contacts-2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .h2 {
+        width: 50%;
+        float: left;
+    }
+
+    .contact-us h2 {
+        padding: 0;
+    }
+
+    .contact-us-items {
+        width: 50%;
+        float: left;
+    }
+    
+  }
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    #gfriend {
+        padding-top: 2%;
+        padding-bottom: 4.5%;
+        padding-right: 2%;
+    }
+
+    .bio-left {
+        width: 90%;
+    }
+
+    #profiles .container {
+        height: 1300px;
+    }
+
+    .member {
+        width: 50%;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .input {
+        width: 70%;
+    }
+
+    .contact-us {
+        width: 100%;
+    }
+
+    .ig, .ig:hover {
+        left: 17%;
+        width: 65.9%;
+    }
+
+    #contact {
+        height: 1020px;
+        margin-bottom: 0;
+    }
+    
+
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+
+    header .header-right {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+    }
+
+    .member {
+        width: 100%;
+    }
+
+    #profiles .container {
+        height: 2400px;
+    }
+
+    .ig, .ig:hover {
+        left: 24.6%;
+        width: 50.8%;
+    }
+
+    .contact-us-items {
+        width: 80%;
+    }
+    
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 700px) {
+    #profiles {
+        margin-top: 6%;
+    }
+    
+    #contact {
+        height: 1020px;
+    }
+
+    .contacts {
+        height: 300px;
+    }
+
+    .contacts-2 {
+        display: block;
+    }
+
+    .h2 {
+        width: 100%;
+    }
+
+    .contact-us h2 {
+        padding: 0;
+    }
+
+    .contact-us-items {
+        width: 100%;
+        padding: 7%;
+    }
+}     
+
+@media all and (max-width: 640px) {
+
+    .ig, .ig:hover {
+        left: 17.8%;
+        width: 64.4%;
+    }
+
+    .input .button {
+        width: 90px;
+    }
+
+    #contact {
+        height: 930px;
+    }
+
+    #contact h1 {
+        font-size: 37px;
+    }
+
+    .form {
+        height: 440px;
+    }
+
+    .contact-us-items {
+        font-size: 15px;
+    }
+
+    footer p {
+        margin-top: 1.25%;
+        font-size: 12px;
+    }
+}    
