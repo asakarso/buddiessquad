@@ -208,6 +208,10 @@ header {
     transition: all 0.5s;
 }
 
+.ig p:hover {
+    text-shadow: 2px 2px black;
+}    
+
 /* contact */
 #contact {
     background-color: #F0EEE9;
