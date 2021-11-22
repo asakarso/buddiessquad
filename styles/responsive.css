@@ -51,10 +51,6 @@
         position: absolute;
         top: 0;
     }
-    
-    footer p {
-        padding: 1%;
-    }
 }
 
 @media all and (max-width: 1300px) {
@@ -104,11 +100,6 @@
         width: 50%;
         float: left;
     }
-     
-    footer p {
-        padding: 1.2%;
-    } 
-    
   }
 
 /* Untuk Tablet */
@@ -152,12 +143,6 @@
         height: 1020px;
         margin-bottom: 0;
     }
-    
-    footer p {
-        padding: 2%;
-    }
-    
-
   }
   
   /* Untuk Smartphone */
@@ -247,10 +232,5 @@
 
     .contact-us-items {
         font-size: 15px;
-    }
-
-    footer p {
-        margin-top: 1.25%;
-        font-size: 12px;
     }
 }    
