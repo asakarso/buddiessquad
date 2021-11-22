@@ -347,19 +347,15 @@ header {
 /* footer */
 footer {
     position: relative;
-    bottom: 0px;
-    background-color: #5F4B8b;
-    height: 50px;
     width: 100%;
+    bottom: 0;
+    background-color: #5F4B8b;
 }
 
-footer div {
-    margin: auto 0;
-}
-
-footer p {
+.footer p {
+    background-color: #5F4B8b;
+    width: 100%;
     color: #F0EEE9;
+    font-size: 70%;
     text-align: center;
-    font-family: 'Segoe UI';
-    font-size: 17px;
 }
